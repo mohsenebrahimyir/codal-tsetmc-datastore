@@ -1,0 +1,23 @@
+# Ignore src
+src
+
+# Ignore database
+.cdl_tse
+
+# Ignore venv
+.venv
+
+# Ignore python source files
+*.py
+*.so
+# Ignore build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.c
+*.cpp
+*.h
+build/
+dist/
+*.egg-info/
