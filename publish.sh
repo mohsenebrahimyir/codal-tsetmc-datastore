@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e
 
-echo "🚀 [1/2] Uploading distributions to PyPI..."
-cd public
-twine upload dist/*
-cd -
+echo "🔐 Publishing to PyPI Test..."
+twine upload --repository testpypi dist/*
 
-echo "🎉 [2/2] Publish complete."
+# برای انتشار نهایی به PyPI اصلی اینو فعال کن:
+# echo "🚀 Publishing to PyPI..."
+# twine upload dist/*

@@ -1,19 +1,19 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel", "cython"]
+requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "codal-tsetmc-datastore"
 version = "1.0.0"
-description = "Private datastore module for codal-tsetmc (Tehran Stock Market)"
+description = "Private datastore module for codal-tsetmc"
 authors = [
     { name = "Mohsen Ebrahimi", email = "mohsenebrahimy.ir@gmail.com" }
 ]
-license = { text = "LICENSE.txt" }
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
-    "codal-tsetmc>=1.7.0"
+    "codal-tsetmc>=2.0.0"
 ]
 
 [project.urls]

@@ -10,6 +10,7 @@ src
 # Ignore python source files
 *.py
 *.so
+*.ipynb
 # Ignore build artifacts
 __pycache__/
 *.pyc
