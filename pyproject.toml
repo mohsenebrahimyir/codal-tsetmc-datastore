@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "codal-tsetmc-datastore"
-version = "1.0.2"
+version = "1.0.3"
 description = "Private datastore module for codal-tsetmc"
 authors = [
     { name = "Mohsen Ebrahimi", email = "mohsenebrahimy.ir@gmail.com" }
@@ -13,7 +13,7 @@ license = "MIT"
 readme = "README.md"
 requires-python = "==3.12.*"
 dependencies = [
-    "codal-tsetmc>=2.0.2",
+    "codal-tsetmc>=2.0.3",
     "pyarmor==9.1.5",
     "pyarmor.cli.core==7.6.6"
 ]
