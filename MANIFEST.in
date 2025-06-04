@@ -1,2 +1,8 @@
 # MANIFEST.in
 recursive-include src/codal_tsetmc_datastore/pyarmor_runtime_000000 *
+include README.md
+include LICENSE.txt
+recursive-include codal_tsetmc_datastore *.so
+recursive-include codal_tsetmc_datastore *.pyd
+prune codal_tsetmc_datastore/*.py
+prune codal_tsetmc_datastore/*.c
